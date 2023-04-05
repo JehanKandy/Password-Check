@@ -2,7 +2,11 @@
     if(isset($_POST['passShow'])){
         $pass = $_POST['password'];
 
-        echo "You entered is : ".$pass;
+        $showPass = md5($pass);
+
+        echo "You entered is : ".$pass."<br>";
+
+        echo "The Password is : ".$showPass
 
     }
 ?>
