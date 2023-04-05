@@ -1,3 +1,10 @@
+<?php 
+    if(isset($_POST['passShow'])){
+        echo "hi";
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
