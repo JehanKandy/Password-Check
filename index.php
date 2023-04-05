@@ -7,6 +7,9 @@
     <title>Hash Password</title>
 </head>
 <body>
-    
+    <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
+
+    </form>    
+
 </body>
 </html>
