@@ -2,7 +2,8 @@
     if(isset($_POST['passShow'])){
         $pass = $_POST['password'];
 
-        echo $pass;
+        echo "You entered is : ".$pass;
+
     }
 ?>
 
