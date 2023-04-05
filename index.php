@@ -8,8 +8,9 @@
 </head>
 <body>
     <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-
-    </form>    
-
+        <input type="text" name="password" id="">
+        
+        <input type="submit" value="Show Password" name="passShow">
+    </form>
 </body>
 </html>
