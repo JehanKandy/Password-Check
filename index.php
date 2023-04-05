@@ -1,6 +1,8 @@
 <?php 
     if(isset($_POST['passShow'])){
-        echo "hi";
+        $pass = $_POST['password'];
+
+        echo $pass;
     }
 ?>
 
